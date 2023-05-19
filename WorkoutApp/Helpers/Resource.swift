@@ -36,4 +36,10 @@ enum Resources {
             static let settings = UIImage(named: "settings_tab")
         }
     }
+    
+    enum Fonts {
+        static func helvelticaRegular(with size: CGFloat) -> UIFont {
+            UIFont(name: "Helvetica", size: size) ?? UIFont()
+        }
+    }
 }
