@@ -21,6 +21,9 @@
 		CE9EFCC72A161D7400B129FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9EFCC52A161D7400B129FA /* LaunchScreen.storyboard */; };
 		CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCD32A16706900B129FA /* UIColor+ext.swift */; };
 		CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCD62A1670CE00B129FA /* Resource.swift */; };
+		CEAA5A0A2A18DBE500D43478 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A092A18DBE500D43478 /* SecondaryButton.swift */; };
+		CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0B2A19069F00D43478 /* BaseView.swift */; };
+		CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		CE9EFCC82A161D7400B129FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9EFCD32A16706900B129FA /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
 		CE9EFCD62A1670CE00B129FA /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CEAA5A092A18DBE500D43478 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		CEAA5A0B2A19069F00D43478 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 				CE91F4082A17A19900A70419 /* TabBarController.swift */,
 				CE91F4012A179AB800A70419 /* NavBarController.swift */,
 				CE91F40A2A17A1DD00A70419 /* BaseController.swift */,
+				CEAA5A0B2A19069F00D43478 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -86,6 +93,7 @@
 		CE91F4102A17B11300A70419 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				CEAA5A082A18DBA200D43478 /* Views */,
 				CE9EFCBE2A161D7100B129FA /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -171,6 +179,15 @@
 			path = Extentions;
 			sourceTree = "<group>";
 		};
+		CEAA5A082A18DBA200D43478 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA5A092A18DBE500D43478 /* SecondaryButton.swift */,
+				CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,12 +264,15 @@
 				CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */,
 				CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */,
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
+				CEAA5A0A2A18DBE500D43478 /* SecondaryButton.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
 				CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */,
 				CE9EFCBD2A161D7100B129FA /* SceneDelegate.swift in Sources */,
 				CE91F40D2A17AEB800A70419 /* UIView+ext.swift in Sources */,
+				CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */,
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
 				CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */,
+				CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

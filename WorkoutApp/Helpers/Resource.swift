@@ -26,6 +26,27 @@ enum Resources {
             static let progress = "Progress"
             static let settings = "Settings"
         }
+        
+        enum NavBar {
+            static let overview = "Today"
+            static let session = "High Intensity Cardio"
+            static let progress = "Workout Progress"
+            static let settings = "Settings"
+        }
+        
+        enum Overview {
+            static let allWorkoutsButton = "All Workouts"
+        }
+        
+        enum Session {
+            static let navBarLeft = "Pause"
+            static let navBarRight = "Finish"
+        }
+        
+        enum Progress {
+            static let navBarLeft = "Export"
+            static let navBarRight = "Details"
+        }
     }
     
     enum Images {
@@ -34,6 +55,10 @@ enum Resources {
             static let session = UIImage(named: "session_tab")
             static let progress = UIImage(named: "progress_tab")
             static let settings = UIImage(named: "settings_tab")
+        }
+        
+        enum Common {
+            static let downArrow = UIImage(named: "down_arrow")
         }
     }
     
