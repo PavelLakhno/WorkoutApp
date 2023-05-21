@@ -30,16 +30,22 @@ extension WeekView {
         ])
     }
     
-    override func configure() {
-        super.configure()
+    override func configureView() {
+        super.configureView()
         
         stackView.spacing = 7
         stackView.distribution = .fillEqually
         
-        let weekdays = calendar.standaloneWeekdaySymbols
+        var weekdays = calendar.shortStandaloneWeekdaySymbols
         
-        weekdays.forEach() { _ in
+        if calendar.firstWeekday == 1 {
+            let sun = weekdays.remove(at: 0)
+            weekdays.append(sun)
+        }
+        
+        weekdays.enumerated().forEach() { index, name in
             let view = WeekdayView()
+            view.configure(with: index, and: name)
             stackView.addArrangedSubview(view)
         }
     }

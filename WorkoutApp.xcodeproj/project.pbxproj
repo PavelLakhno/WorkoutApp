@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B4DD9B62A1A119E00AF4676 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B52A1A119E00AF4676 /* WeekView.swift */; };
 		0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */; };
+		0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B92A1A232500AF4676 /* Date+ext.swift */; };
 		CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4012A179AB800A70419 /* NavBarController.swift */; };
 		CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4082A17A19900A70419 /* TabBarController.swift */; };
 		CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F40A2A17A1DD00A70419 /* BaseController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		0B4DD9B52A1A119E00AF4676 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		0B4DD9B92A1A232500AF4676 /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
 		CE91F4012A179AB800A70419 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		CE91F4082A17A19900A70419 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CE91F40A2A17A1DD00A70419 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			children = (
 				CE9EFCD32A16706900B129FA /* UIColor+ext.swift */,
 				CE91F40C2A17AEB800A70419 /* UIView+ext.swift */,
+				0B4DD9B92A1A232500AF4676 /* Date+ext.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
 				CEAA5A0A2A18DBE500D43478 /* SecondaryButton.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
+				0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */,
 				CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */,
 				CE9EFCBD2A161D7100B129FA /* SceneDelegate.swift in Sources */,
 				CE91F40D2A17AEB800A70419 /* UIView+ext.swift in Sources */,

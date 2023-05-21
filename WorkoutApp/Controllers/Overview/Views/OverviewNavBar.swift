@@ -67,8 +67,8 @@ extension OverviewNavBar {
   
     }
     
-    override func configure() {
-        super.configure()
+    override func configureView() {
+        super.configureView()
         
         backgroundColor = .white
 
