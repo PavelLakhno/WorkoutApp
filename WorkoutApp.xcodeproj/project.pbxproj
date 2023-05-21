@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4DD9B62A1A119E00AF4676 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B52A1A119E00AF4676 /* WeekView.swift */; };
+		0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */; };
 		CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4012A179AB800A70419 /* NavBarController.swift */; };
 		CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4082A17A19900A70419 /* TabBarController.swift */; };
 		CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F40A2A17A1DD00A70419 /* BaseController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4DD9B52A1A119E00AF4676 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		CE91F4012A179AB800A70419 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		CE91F4082A17A19900A70419 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CE91F40A2A17A1DD00A70419 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4DD9B22A1A110400AF4676 /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				0B4DD9B52A1A119E00AF4676 /* WeekView.swift */,
+				0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */,
+			);
+			path = WeekView;
+			sourceTree = "<group>";
+		};
 		CE91F4032A17A0F300A70419 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +195,7 @@
 		CEAA5A082A18DBA200D43478 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0B4DD9B22A1A110400AF4676 /* WeekView */,
 				CEAA5A092A18DBE500D43478 /* SecondaryButton.swift */,
 				CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */,
 			);
@@ -258,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4DD9B62A1A119E00AF4676 /* WeekView.swift in Sources */,
 				CE91F4182A17B39200A70419 /* SettingsController.swift in Sources */,
 				CE9EFCBF2A161D7100B129FA /* OverviewController.swift in Sources */,
 				CE9EFCBB2A161D7100B129FA /* AppDelegate.swift in Sources */,
@@ -271,6 +286,7 @@
 				CE91F40D2A17AEB800A70419 /* UIView+ext.swift in Sources */,
 				CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */,
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
+				0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */,
 				CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */,
 				CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */,
 			);
