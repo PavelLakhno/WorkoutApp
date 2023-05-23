@@ -17,6 +17,7 @@
 		CE91F4142A17B34000A70419 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4132A17B34000A70419 /* SessionController.swift */; };
 		CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4152A17B36600A70419 /* ProgressController.swift */; };
 		CE91F4182A17B39200A70419 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4172A17B39200A70419 /* SettingsController.swift */; };
+		CE98D8B92A1CF42500619652 /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98D8B82A1CF42500619652 /* BaseInfoView.swift */; };
 		CE9EFCBB2A161D7100B129FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCBA2A161D7100B129FA /* AppDelegate.swift */; };
 		CE9EFCBD2A161D7100B129FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCBC2A161D7100B129FA /* SceneDelegate.swift */; };
 		CE9EFCBF2A161D7100B129FA /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCBE2A161D7100B129FA /* OverviewController.swift */; };
@@ -40,6 +41,7 @@
 		CE91F4132A17B34000A70419 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		CE91F4152A17B36600A70419 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		CE91F4172A17B39200A70419 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		CE98D8B82A1CF42500619652 /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 		CE9EFCB72A161D7100B129FA /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9EFCBA2A161D7100B129FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9EFCBC2A161D7100B129FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		CE91F40E2A17B0E500A70419 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				CE98D8B72A1CF40F00619652 /* Views */,
 				CE91F40A2A17A1DD00A70419 /* BaseController.swift */,
 				CEAA5A0B2A19069F00D43478 /* BaseView.swift */,
 			);
@@ -136,6 +139,14 @@
 				CE91F4132A17B34000A70419 /* SessionController.swift */,
 			);
 			path = Session;
+			sourceTree = "<group>";
+		};
+		CE98D8B72A1CF40F00619652 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE98D8B82A1CF42500619652 /* BaseInfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CE9EFCAE2A161D7100B129FA = {
@@ -292,6 +303,7 @@
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
 				CEAA5A0A2A18DBE500D43478 /* SecondaryButton.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
+				CE98D8B92A1CF42500619652 /* BaseInfoView.swift in Sources */,
 				0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */,
 				CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */,
 				CE9EFCBD2A161D7100B129FA /* SceneDelegate.swift in Sources */,

@@ -17,19 +17,24 @@ class BaseController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addViews()
-        layoutViews()
-        configure()
+        setupViews()
+        setupConstraintViews()
+        configureAppearance()
     }
 
 }
 
 @objc extension BaseController {
-    func addViews() {}
-    func layoutViews() {}
-    func configure() {
+    
+    func setupViews() {}
+    func setupConstraintViews() {}
+    func configureAppearance() {
         view.backgroundColor = Resources.Colors.background
     }
+    
+//    func configure() {
+//        view.backgroundColor = Resources.Colors.background
+//    }
     
     func navBarLeftButtonHandler() {
         print("NavBar left button tapped")
