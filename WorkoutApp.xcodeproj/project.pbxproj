@@ -25,6 +25,8 @@
 		CE9EFCC72A161D7400B129FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9EFCC52A161D7400B129FA /* LaunchScreen.storyboard */; };
 		CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCD32A16706900B129FA /* UIColor+ext.swift */; };
 		CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCD62A1670CE00B129FA /* Resource.swift */; };
+		CEA127912A1F8B07008F3485 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA127902A1F8B07008F3485 /* TimerView.swift */; };
+		CEA127932A1F8B6F008F3485 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA127922A1F8B6F008F3485 /* ProgressView.swift */; };
 		CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A092A18DBE500D43478 /* WAButton.swift */; };
 		CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0B2A19069F00D43478 /* BaseView.swift */; };
 		CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */; };
@@ -51,6 +53,8 @@
 		CE9EFCC82A161D7400B129FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9EFCD32A16706900B129FA /* UIColor+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ext.swift"; sourceTree = "<group>"; };
 		CE9EFCD62A1670CE00B129FA /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CEA127902A1F8B07008F3485 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		CEA127922A1F8B6F008F3485 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		CEAA5A092A18DBE500D43478 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		CEAA5A0B2A19069F00D43478 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 		CE91F4122A17B13000A70419 /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				CEA1278E2A1F8ACA008F3485 /* Views */,
 				CE91F4132A17B34000A70419 /* SessionController.swift */,
 			);
 			path = Session;
@@ -212,6 +217,23 @@
 				0B4DD9B92A1A232500AF4676 /* Date+ext.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		CEA1278E2A1F8ACA008F3485 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1278F2A1F8AF2008F3485 /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEA1278F2A1F8AF2008F3485 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CEA127902A1F8B07008F3485 /* TimerView.swift */,
+				CEA127922A1F8B6F008F3485 /* ProgressView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		CEAA5A082A18DBA200D43478 /* Views */ = {
@@ -304,6 +326,8 @@
 				CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
 				CE98D8B92A1CF42500619652 /* WABaseInfoView.swift in Sources */,
+				CEA127912A1F8B07008F3485 /* TimerView.swift in Sources */,
+				CEA127932A1F8B6F008F3485 /* ProgressView.swift in Sources */,
 				0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */,
 				CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */,
 				CE9EFCBD2A161D7100B129FA /* SceneDelegate.swift in Sources */,

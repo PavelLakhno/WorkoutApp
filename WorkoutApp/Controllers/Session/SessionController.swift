@@ -9,8 +9,8 @@ import UIKit
 
 class SessionController: BaseController {
 
-    private let timerView: WABaseInfoView = {
-        let view = WABaseInfoView(with: "Test", buttonTitle: "Test Button")
+    private let timerView: TimerView = {
+        let view = TimerView()
         
         return view
     }()
