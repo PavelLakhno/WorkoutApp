@@ -18,6 +18,7 @@
 		CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4152A17B36600A70419 /* ProgressController.swift */; };
 		CE91F4182A17B39200A70419 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4172A17B39200A70419 /* SettingsController.swift */; };
 		CE98D8B92A1CF42500619652 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98D8B82A1CF42500619652 /* WABaseInfoView.swift */; };
+		CE99112F2A28E4C30079A7BD /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99112E2A28E4C30079A7BD /* PercentView.swift */; };
 		CE9EFCBB2A161D7100B129FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCBA2A161D7100B129FA /* AppDelegate.swift */; };
 		CE9EFCBD2A161D7100B129FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCBC2A161D7100B129FA /* SceneDelegate.swift */; };
 		CE9EFCBF2A161D7100B129FA /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCBE2A161D7100B129FA /* OverviewController.swift */; };
@@ -44,6 +45,7 @@
 		CE91F4152A17B36600A70419 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		CE91F4172A17B39200A70419 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		CE98D8B82A1CF42500619652 /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
+		CE99112E2A28E4C30079A7BD /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
 		CE9EFCB72A161D7100B129FA /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9EFCBA2A161D7100B129FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9EFCBC2A161D7100B129FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			children = (
 				CEA127902A1F8B07008F3485 /* TimerView.swift */,
 				CEA127922A1F8B6F008F3485 /* ProgressView.swift */,
+				CE99112E2A28E4C30079A7BD /* PercentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */,
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
 				CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */,
+				CE99112F2A28E4C30079A7BD /* PercentView.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
 				CE98D8B92A1CF42500619652 /* WABaseInfoView.swift in Sources */,
 				CEA127912A1F8B07008F3485 /* TimerView.swift in Sources */,

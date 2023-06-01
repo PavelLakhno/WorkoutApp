@@ -26,7 +26,6 @@ final class TimerView: WABaseInfoView {
 
     private let elapsedTimeValueLabel: UILabel = {
         let label = UILabel()
-        label.text = "02:15"
         label.font = Resources.Fonts.helvelticaRegular(with: 46)
         label.textColor = Resources.Colors.titleGray
         label.textAlignment = .center
@@ -44,7 +43,6 @@ final class TimerView: WABaseInfoView {
 
     private let remainingTimeValueLabel: UILabel = {
         let label = UILabel()
-        label.text = "12:45"
         label.font = Resources.Fonts.helvelticaRegular(with: 13)
         label.textColor = Resources.Colors.titleGray
         label.textAlignment = .center
@@ -56,6 +54,22 @@ final class TimerView: WABaseInfoView {
         view.axis = .vertical
         view.distribution = .fillProportionally
         view.spacing = 10
+        return view
+    }()
+    
+    private let bottomStackView: UIStackView = {
+        let view = UIStackView()
+        view.distribution = .fillProportionally
+        view.spacing = 25
+        return view
+    }()
+    
+    private let completedPercentView = PercentView()
+    private let remainigPercentView = PercentView()
+    
+    private let bottomSeparatorView: UIView = {
+        let view = UIView()
+        view.backgroundColor = Resources.Colors.separator
         return view
     }()
     
@@ -73,9 +87,14 @@ final class TimerView: WABaseInfoView {
         let tempCurrentValue = progress > duration ? duration : progress
         let goalValueDevider = duration == 0 ? 1 : duration
         let percent = tempCurrentValue / goalValueDevider
+        let roundedPercent = Int(round(percent * 100))
         
         elapsedTimeValueLabel.text = getDisplayedString(from: Int(tempCurrentValue))
         remainingTimeValueLabel.text = getDisplayedString(from: Int(duration) - Int(tempCurrentValue))
+        completedPercentView.configure(with: Resources.Strings.Session.completed.uppercased(),
+                                       andValue: roundedPercent)
+        remainigPercentView.configure(with: Resources.Strings.Session.remaining.uppercased(),
+                                      andValue: 100 - roundedPercent)
         
         progressView.drawProgress(with: CGFloat(percent))
     }
@@ -128,17 +147,22 @@ extension TimerView {
         
         setupView(progressView)
         setupView(timeStackView)
+        setupView(bottomStackView)
         
         [
             elapsedTimeLabel,
             elapsedTimeValueLabel,
             remainingTimeLabel,
             remainingTimeValueLabel
-        ].forEach {
-            timeStackView.addArrangedSubview($0)
-        }
-
+        ].forEach(timeStackView.addArrangedSubview)
+        
+        [
+            completedPercentView,
+            bottomSeparatorView,
+            remainigPercentView
+        ].forEach(bottomStackView.addArrangedSubview)
     }
+
 
     override func setupConstraintViews() {
         super.setupConstraintViews()
@@ -151,7 +175,14 @@ extension TimerView {
             progressView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -40),
             
             timeStackView.centerYAnchor.constraint(equalTo: progressView.centerYAnchor),
-            timeStackView.centerXAnchor.constraint(equalTo: progressView.centerXAnchor)
+            timeStackView.centerXAnchor.constraint(equalTo: progressView.centerXAnchor),
+            
+            bottomStackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -28),
+            bottomStackView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            bottomStackView.widthAnchor.constraint(equalToConstant: 175),
+            bottomStackView.heightAnchor.constraint(equalToConstant: 35),
+            
+            bottomSeparatorView.widthAnchor.constraint(equalToConstant: 1)
         ])
 
     }
