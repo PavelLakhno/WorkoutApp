@@ -31,6 +31,8 @@
 		CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A092A18DBE500D43478 /* WAButton.swift */; };
 		CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0B2A19069F00D43478 /* BaseView.swift */; };
 		CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */; };
+		CEAD1EC62A2E2F2300CC4BE8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD1EC52A2E2F2300CC4BE8 /* StatsView.swift */; };
+		CEAD1EC92A2E334800CC4BE8 /* StateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD1EC82A2E334800CC4BE8 /* StateItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		CEAA5A092A18DBE500D43478 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		CEAA5A0B2A19069F00D43478 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		CEAD1EC52A2E2F2300CC4BE8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		CEAD1EC82A2E334800CC4BE8 /* StateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,8 @@
 		CEA1278E2A1F8ACA008F3485 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD1EC42A2E2E6400CC4BE8 /* Stats */,
+				CEAD1EC32A2E2E3F00CC4BE8 /* Steps */,
 				CEA1278F2A1F8AF2008F3485 /* Timer */,
 			);
 			path = Views;
@@ -245,6 +251,30 @@
 				0B4DD9B22A1A110400AF4676 /* WeekView */,
 				CEAA5A092A18DBE500D43478 /* WAButton.swift */,
 				CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEAD1EC32A2E2E3F00CC4BE8 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		CEAD1EC42A2E2E6400CC4BE8 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD1EC72A2E331700CC4BE8 /* Views */,
+				CEAD1EC52A2E2F2300CC4BE8 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		CEAD1EC72A2E331700CC4BE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD1EC82A2E334800CC4BE8 /* StateItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -328,6 +358,7 @@
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
 				CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */,
 				CE99112F2A28E4C30079A7BD /* PercentView.swift in Sources */,
+				CEAD1EC92A2E334800CC4BE8 /* StateItemView.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
 				CE98D8B92A1CF42500619652 /* WABaseInfoView.swift in Sources */,
 				CEA127912A1F8B07008F3485 /* TimerView.swift in Sources */,
@@ -339,6 +370,7 @@
 				CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */,
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
 				0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */,
+				CEAD1EC62A2E2F2300CC4BE8 /* StatsView.swift in Sources */,
 				CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */,
 				CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */,
 			);
