@@ -9,29 +9,39 @@ import UIKit
 
 final class StatsView: WABaseInfoView {
 
-    private let itemView = StatsItemView()
+    private let stackView: UIStackView = {
+        let view = UIStackView()
+        view.axis = .vertical
+        view.spacing = 15
+        return view
+    }()
     
+    func configure(with items: [StatsItem]) {
+        items.forEach {
+            let itemView = StatsItemView()
+            itemView.configure(with: $0)
+            stackView.addArrangedSubview(itemView)
+        }
+    }
 }
+
 
 extension StatsView {
     override func setupViews() {
         super.setupViews()
 
-        setupView(itemView)
-        
-        itemView.configure(with: StatsItemView.StatsItem(
-            image: Resources.Images.Session.Stats.heartRate,
-            value: "155 bps",
-            title: Resources.Strings.Session.heartRate.uppercased()
-        ))
+        setupView(stackView)
+
     }
 
     override func setupConstraintViews() {
         super.setupConstraintViews()
 
         NSLayoutConstraint.activate([
-            itemView.topAnchor.constraint(equalTo: topAnchor, constant: 45),
-            itemView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15)
+            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
+            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -15),
+            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 15),
+            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10)
         ])
     }
 
