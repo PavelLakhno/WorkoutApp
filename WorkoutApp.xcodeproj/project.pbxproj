@@ -33,6 +33,9 @@
 		CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */; };
 		CEAD1EC62A2E2F2300CC4BE8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD1EC52A2E2F2300CC4BE8 /* StatsView.swift */; };
 		CEAD1EC92A2E334800CC4BE8 /* StateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD1EC82A2E334800CC4BE8 /* StateItemView.swift */; };
+		CEAEDFBB2A321FAD00E14F61 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */; };
+		CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFBE2A32280600E14F61 /* WABarsView.swift */; };
+		CEAEDFC12A322EB800E14F61 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFC02A322EB800E14F61 /* WABarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		CEAD1EC52A2E2F2300CC4BE8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		CEAD1EC82A2E334800CC4BE8 /* StateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateItemView.swift; sourceTree = "<group>"; };
+		CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		CEAEDFBE2A32280600E14F61 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
+		CEAEDFC02A322EB800E14F61 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 		CE98D8B72A1CF40F00619652 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEAEDFBC2A32279700E14F61 /* WABarsView */,
 				CE98D8B82A1CF42500619652 /* WABaseInfoView.swift */,
 			);
 			path = Views;
@@ -258,6 +265,7 @@
 		CEAD1EC32A2E2E3F00CC4BE8 /* Steps */ = {
 			isa = PBXGroup;
 			children = (
+				CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */,
 			);
 			path = Steps;
 			sourceTree = "<group>";
@@ -275,6 +283,23 @@
 			isa = PBXGroup;
 			children = (
 				CEAD1EC82A2E334800CC4BE8 /* StateItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEAEDFBC2A32279700E14F61 /* WABarsView */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEDFBD2A3227C900E14F61 /* Views */,
+				CEAEDFBE2A32280600E14F61 /* WABarsView.swift */,
+			);
+			path = WABarsView;
+			sourceTree = "<group>";
+		};
+		CEAEDFBD2A3227C900E14F61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEDFC02A322EB800E14F61 /* WABarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -356,12 +381,14 @@
 				CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */,
 				CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */,
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
+				CEAEDFC12A322EB800E14F61 /* WABarView.swift in Sources */,
 				CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */,
 				CE99112F2A28E4C30079A7BD /* PercentView.swift in Sources */,
 				CEAD1EC92A2E334800CC4BE8 /* StateItemView.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,
 				CE98D8B92A1CF42500619652 /* WABaseInfoView.swift in Sources */,
 				CEA127912A1F8B07008F3485 /* TimerView.swift in Sources */,
+				CEAEDFBB2A321FAD00E14F61 /* StepsView.swift in Sources */,
 				CEA127932A1F8B6F008F3485 /* ProgressView.swift in Sources */,
 				0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */,
 				CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */,
@@ -370,6 +397,7 @@
 				CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */,
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
 				0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */,
+				CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */,
 				CEAD1EC62A2E2F2300CC4BE8 /* StatsView.swift in Sources */,
 				CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */,
 				CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */,
