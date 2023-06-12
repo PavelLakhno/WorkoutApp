@@ -28,6 +28,7 @@
 		CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9EFCD62A1670CE00B129FA /* Resource.swift */; };
 		CEA127912A1F8B07008F3485 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA127902A1F8B07008F3485 /* TimerView.swift */; };
 		CEA127932A1F8B6F008F3485 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA127922A1F8B6F008F3485 /* ProgressView.swift */; };
+		CEA6AE0B2A372AA800DFC040 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA6AE0A2A372AA800DFC040 /* DailyPerformanceView.swift */; };
 		CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A092A18DBE500D43478 /* WAButton.swift */; };
 		CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0B2A19069F00D43478 /* BaseView.swift */; };
 		CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */; };
@@ -62,6 +63,7 @@
 		CE9EFCD62A1670CE00B129FA /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		CEA127902A1F8B07008F3485 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		CEA127922A1F8B6F008F3485 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		CEA6AE0A2A372AA800DFC040 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
 		CEAA5A092A18DBE500D43478 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		CEAA5A0B2A19069F00D43478 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		CE91F4112A17B12000A70419 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				CEA6AE082A372A4A00DFC040 /* Views */,
 				CE91F4152A17B36600A70419 /* ProgressController.swift */,
 			);
 			path = Progress;
@@ -250,6 +253,22 @@
 				CE99112E2A28E4C30079A7BD /* PercentView.swift */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		CEA6AE082A372A4A00DFC040 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AE092A372A5700DFC040 /* Performance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEA6AE092A372A5700DFC040 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6AE0A2A372AA800DFC040 /* DailyPerformanceView.swift */,
+			);
+			path = Performance;
 			sourceTree = "<group>";
 		};
 		CEAA5A082A18DBA200D43478 /* Views */ = {
@@ -383,6 +402,7 @@
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
 				CEAEDFC12A322EB800E14F61 /* WABarView.swift in Sources */,
 				CEAA5A0A2A18DBE500D43478 /* WAButton.swift in Sources */,
+				CEA6AE0B2A372AA800DFC040 /* DailyPerformanceView.swift in Sources */,
 				CE99112F2A28E4C30079A7BD /* PercentView.swift in Sources */,
 				CEAD1EC92A2E334800CC4BE8 /* StateItemView.swift in Sources */,
 				CE91F4162A17B36600A70419 /* ProgressController.swift in Sources */,

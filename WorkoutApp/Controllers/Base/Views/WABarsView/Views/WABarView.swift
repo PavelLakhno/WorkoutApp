@@ -44,7 +44,7 @@ final class WABarView: BaseView {
         self.heightMultiplier = data.heightMultiplier
         super.init(frame: .zero)
         
-        titleLabel.text = data.title
+        titleLabel.text = data.title.uppercased()
         valueLabel.text = data.value
     }
     
