@@ -10,6 +10,7 @@
 		0B4DD9B62A1A119E00AF4676 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B52A1A119E00AF4676 /* WeekView.swift */; };
 		0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */; };
 		0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B92A1A232500AF4676 /* Date+ext.swift */; };
+		CE6C644D2C569A8D009E04C0 /* MonthlyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C644C2C569A8D009E04C0 /* MonthlyPerformanceView.swift */; };
 		CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4012A179AB800A70419 /* NavBarController.swift */; };
 		CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4082A17A19900A70419 /* TabBarController.swift */; };
 		CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F40A2A17A1DD00A70419 /* BaseController.swift */; };
@@ -43,6 +44,7 @@
 		0B4DD9B52A1A119E00AF4676 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		0B4DD9B92A1A232500AF4676 /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
+		CE6C644C2C569A8D009E04C0 /* MonthlyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformanceView.swift; sourceTree = "<group>"; };
 		CE91F4012A179AB800A70419 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		CE91F4082A17A19900A70419 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CE91F40A2A17A1DD00A70419 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 				0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */,
 			);
 			path = WeekView;
+			sourceTree = "<group>";
+		};
+		CE6C644B2C569A4A009E04C0 /* MonthlyPerformanceView */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C644C2C569A8D009E04C0 /* MonthlyPerformanceView.swift */,
+			);
+			path = MonthlyPerformanceView;
 			sourceTree = "<group>";
 		};
 		CE9110A52A1B84E100C9B8DC /* Navigation */ = {
@@ -258,6 +268,7 @@
 		CEA6AE082A372A4A00DFC040 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE6C644B2C569A4A009E04C0 /* MonthlyPerformanceView */,
 				CEA6AE092A372A5700DFC040 /* Performance */,
 			);
 			path = Views;
@@ -398,6 +409,7 @@
 				CE9EFCBF2A161D7100B129FA /* OverviewController.swift in Sources */,
 				CE9EFCBB2A161D7100B129FA /* AppDelegate.swift in Sources */,
 				CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */,
+				CE6C644D2C569A8D009E04C0 /* MonthlyPerformanceView.swift in Sources */,
 				CE9EFCD72A1670CE00B129FA /* Resource.swift in Sources */,
 				CE91F4142A17B34000A70419 /* SessionController.swift in Sources */,
 				CEAEDFC12A322EB800E14F61 /* WABarView.swift in Sources */,

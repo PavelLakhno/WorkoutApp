@@ -13,6 +13,11 @@ class ProgressController: BaseController {
         with: Resources.Strings.Progress.dailyPerformance,
         buttonTitle: Resources.Strings.Progress.last7Days
     )
+    
+    private let monthlyPerformanceView = MonthlyPerformanceView(
+        with: Resources.Strings.Progress.monthlyPerformance,
+        buttonTitle: Resources.Strings.Progress.last10Months
+    )
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +30,9 @@ class ProgressController: BaseController {
 extension ProgressController {
     override func setupViews() {
         super.setupViews()
+        
         view.setupView(dailyPerformanceView)
+        view.setupView(monthlyPerformanceView)
 
     }
     
@@ -36,7 +43,12 @@ extension ProgressController {
             dailyPerformanceView.topAnchor.constraint(equalTo: view.topAnchor, constant: 15),
             dailyPerformanceView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
             dailyPerformanceView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
-            dailyPerformanceView.heightAnchor.constraint(equalTo: dailyPerformanceView.widthAnchor, multiplier: 0.68)
+            dailyPerformanceView.heightAnchor.constraint(equalTo: dailyPerformanceView.widthAnchor, multiplier: 0.68),
+            
+            monthlyPerformanceView.topAnchor.constraint(equalTo: dailyPerformanceView.bottomAnchor, constant: 15),
+            monthlyPerformanceView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
+            monthlyPerformanceView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
+            monthlyPerformanceView.heightAnchor.constraint(equalTo: dailyPerformanceView.widthAnchor, multiplier: 1.06)
         ])
 
     }
