@@ -9,10 +9,10 @@ import UIKit
 
 final class MonthlyPerformanceView: WABaseInfoView {
     
-    private let chartsView = UIView()//WABarsView()
+    private let chartsView = WAChartsView()
     
-    func configure(with items: [WABarView.Data]) {
-        //chartsView.configure(with: items)
+    func configure(with items: [WAChartsView.Data]) {
+        chartsView.configure(with: items)
 
     }
 }
@@ -39,7 +39,5 @@ extension MonthlyPerformanceView {
 
     override func configureAppearance() {
         super.configureAppearance()
-        
-        chartsView.backgroundColor = .cyan
     }
 }
