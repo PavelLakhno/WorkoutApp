@@ -41,6 +41,7 @@
 		CEAEDFBB2A321FAD00E14F61 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */; };
 		CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFBE2A32280600E14F61 /* WABarsView.swift */; };
 		CEAEDFC12A322EB800E14F61 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFC02A322EB800E14F61 /* WABarView.swift */; };
+		CEE71AA12C5A652F00E34D3A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE71AA02C5A652F00E34D3A /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		CEAEDFBE2A32280600E14F61 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
 		CEAEDFC02A322EB800E14F61 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		CEE71AA02C5A652F00E34D3A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			children = (
 				CEA027662C58EDC0008747E5 /* XAxisView.swift */,
 				CEA027682C58EE0C008747E5 /* YAxisView.swift */,
+				CEE71AA02C5A652F00E34D3A /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
 				0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */,
 				CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */,
+				CEE71AA12C5A652F00E34D3A /* ChartView.swift in Sources */,
 				CEAD1EC62A2E2F2300CC4BE8 /* StatsView.swift in Sources */,
 				CE91F40B2A17A1DD00A70419 /* BaseController.swift in Sources */,
 				CEAA5A0E2A19075E00D43478 /* OverviewNavBar.swift in Sources */,
