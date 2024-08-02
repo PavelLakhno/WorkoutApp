@@ -41,6 +41,7 @@
 		CEAEDFBB2A321FAD00E14F61 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */; };
 		CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFBE2A32280600E14F61 /* WABarsView.swift */; };
 		CEAEDFC12A322EB800E14F61 /* WABarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDFC02A322EB800E14F61 /* WABarView.swift */; };
+		CEBE0A3A2C5CFBEE004589C1 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE0A392C5CFBEE004589C1 /* SectionHeaderView.swift */; };
 		CEE71AA12C5A652F00E34D3A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE71AA02C5A652F00E34D3A /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		CEAEDFBA2A321FAD00E14F61 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		CEAEDFBE2A32280600E14F61 /* WABarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarsView.swift; sourceTree = "<group>"; };
 		CEAEDFC02A322EB800E14F61 /* WABarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABarView.swift; sourceTree = "<group>"; };
+		CEBE0A392C5CFBEE004589C1 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		CEE71AA02C5A652F00E34D3A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,9 +331,10 @@
 		CEAA5A082A18DBA200D43478 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CEBE0A362C5CFB91004589C1 /* CollectionView */,
 				0B4DD9B22A1A110400AF4676 /* WeekView */,
 				CEAA5A092A18DBE500D43478 /* WAButton.swift */,
-				CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */,
+				CEBE0A352C5CFB24004589C1 /* NavBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -374,6 +377,30 @@
 			children = (
 				CEA027612C58E1F0008747E5 /* WABarsView */,
 				CEA0275E2C58E165008747E5 /* WAChartsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEBE0A352C5CFB24004589C1 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA5A0D2A19075E00D43478 /* OverviewNavBar.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		CEBE0A362C5CFB91004589C1 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE0A372C5CFB9E004589C1 /* Views */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		CEBE0A372C5CFB9E004589C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE0A392C5CFBEE004589C1 /* SectionHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -475,6 +502,7 @@
 				CEAA5A0C2A19069F00D43478 /* BaseView.swift in Sources */,
 				CEA027692C58EE0C008747E5 /* YAxisView.swift in Sources */,
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
+				CEBE0A3A2C5CFBEE004589C1 /* SectionHeaderView.swift in Sources */,
 				0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */,
 				CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */,
 				CEE71AA12C5A652F00E34D3A /* ChartView.swift in Sources */,
