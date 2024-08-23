@@ -10,6 +10,7 @@
 		0B4DD9B62A1A119E00AF4676 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B52A1A119E00AF4676 /* WeekView.swift */; };
 		0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */; };
 		0B4DD9BA2A1A232500AF4676 /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DD9B92A1A232500AF4676 /* Date+ext.swift */; };
+		CE696F5F2C78C05B00B7548B /* TrainingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE696F5E2C78C05B00B7548B /* TrainingCellView.swift */; };
 		CE6C644D2C569A8D009E04C0 /* MonthlyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C644C2C569A8D009E04C0 /* MonthlyPerformanceView.swift */; };
 		CE91F4022A179AB800A70419 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4012A179AB800A70419 /* NavBarController.swift */; };
 		CE91F4092A17A19900A70419 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F4082A17A19900A70419 /* TabBarController.swift */; };
@@ -49,6 +50,7 @@
 		0B4DD9B52A1A119E00AF4676 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		0B4DD9B72A1A13DD00AF4676 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		0B4DD9B92A1A232500AF4676 /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
+		CE696F5E2C78C05B00B7548B /* TrainingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellView.swift; sourceTree = "<group>"; };
 		CE6C644C2C569A8D009E04C0 /* MonthlyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformanceView.swift; sourceTree = "<group>"; };
 		CE91F4012A179AB800A70419 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		CE91F4082A17A19900A70419 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 			isa = PBXGroup;
 			children = (
 				CEBE0A392C5CFBEE004589C1 /* SectionHeaderView.swift */,
+				CE696F5E2C78C05B00B7548B /* TrainingCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				CE9EFCD42A16706900B129FA /* UIColor+ext.swift in Sources */,
 				CEBE0A3A2C5CFBEE004589C1 /* SectionHeaderView.swift in Sources */,
 				0B4DD9B82A1A13DD00AF4676 /* WeekdayView.swift in Sources */,
+				CE696F5F2C78C05B00B7548B /* TrainingCellView.swift in Sources */,
 				CEAEDFBF2A32280600E14F61 /* WABarsView.swift in Sources */,
 				CEE71AA12C5A652F00E34D3A /* ChartView.swift in Sources */,
 				CEAD1EC62A2E2F2300CC4BE8 /* StatsView.swift in Sources */,
